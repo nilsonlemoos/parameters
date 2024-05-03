@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(251, 254, 255) ;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+.title-parameter {
+    width: 90%; /* Anchura del 90% del tamaño de su contenedor */
+    max-width: 1300px; /* Anchura máxima de 1300px */
+    background-color: blue;
+    font-weight: bold;
+    margin: 0 auto; /* Esto ya centra el elemento horizontalmente */
+    text-align: center; /* Esta línea centra el texto dentro del elemento */
+    color: white; /* Color blanco para el texto */
+}
+
+.config-button {
+            background-color: blue;
+            float: right;
+            color: white;
+        }
+
+.download-button {
+            background-color: green;
+            float: left;
+            color: white;
+        }
+.watch-container {
+            position: fixed;
+            top: 70px;
+            left: 20px;
+        }
+.label-rows {
+            font-weight: bold;
+            font-size: 14px;
+            color: #000000;
+            margin-right: 10px;
+        }
+.select-rows {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 50px;
+        }
+.search-container {
+            position: fixed; /* Posicionamiento fijo para que el contenedor se mantenga en su lugar al desplazarse */
+            top: 70px; /* Distancia desde la parte superior de la pantalla */
+            right: 20px; /* Distancia desde el lado derecho de la pantalla */
+        }
+               
+.label-search {
+            font-weight: bold;
+            font-size: 16px;
+            color: #000000;
+            margin-right: 10px; /* Margen derecho para separar el label del input */
+        }
+        
+.input-search {
+            padding: 5px; /* Añade un poco de espacio alrededor del input */
+            border: 1px solid #ccc; /* Borde del input */
+            border-radius: 5px; /* Añade esquinas redondeadas */
+            font-size: 16px;
+            width: 200px; /* Ancho del input */
+        }
+.search-button {
+            background-color: #009ABF;
+            color: white;
+            border: none; /* Elimina el borde */
+            padding: 10px 20px; /* Ajusta el tamaño del botón aumentando el padding */
+            margin: 0 auto; /* Esto centra el botón horizontalmente */
+        }
+.table-cell{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.table-header{
+    text-align: center;
+}
+        

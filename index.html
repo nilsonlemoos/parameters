@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+    <title>Document</title>
+</head>
+<body>
+        <div class="title-parameter">PARAMETROS DE CONFIGURACION</div>
+    <br>
+    <div class="button-container">
+        <button class="download-button">Descargar</button>
+        <button class="config-button">Nueva Configuración</button>
+    </div>
+    <br>
+<br>
+    <div class="watch-container">
+        <label for="rows" class="label-rows">Ver</label>
+        <select id="rows" name="rows" class="select-rows">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+        </select>
+        <label for="rows" class="label-rows">Filas</label>
+    </div>
+
+    <div class="search-container">
+        <label for="search" class="label-search">Buscar</label>
+        <input type="text" id="search" name="search" class="input-search">
+    </div>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th class="table-header">ID<i class="fas fa-sort"></i></th>
+                <th class="table-header">NOMBRE<i class="fas fa-sort"></i></th>
+                <th class="table-header">DESCRIPCION<i class="fas fa-sort"></i></th>
+                <th class="table-header">OPCIONES<i class="fas fa-sort"></i></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="table-cell">1</td>
+                <td class="table-cell">Transaccion</td>
+                <td class="table-cell">ABC</td>
+                <td class="table-cell"><button class="search-button"><i class="fas fa-search"></i></button></td>
+            </tr>
+            <tr>
+                <td class="table-cell">2</td>
+                <td class="table-cell">OperationResult</td>
+                <td class="table-cell">OPERATIONRESULT</td>
+                <td class="table-cell"><button class="search-button"><i class="fas fa-search"></i></button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
